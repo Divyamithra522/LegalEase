@@ -1,0 +1,22 @@
+LEGAL EASE – AI-POWERED LEGAL DOCUMENT GENERATOR
+
+Summary:
+LegalEase uses Generative AI to simplify creation of structured legal-document drafts.
+Users provide document type, parties, terms and effective date. The system generates
+editable content and supports TXT, DOCX and PDF export.
+
+Stack:
+Python, Streamlit, FastAPI, Google Gemini, python-docx, FPDF, Requests, python-dotenv.
+
+Architecture:
+User -> Streamlit -> FastAPI -> Gemini AI -> Document Formatter -> TXT/DOCX/PDF
+
+Modules:
+1. Frontend
+2. Backend API
+3. Gemini AI Generator
+4. Document Formatter
+5. Export Module
+
+Academic note:
+Generated legal content is an AI-assisted draft and should be professionally reviewed.
